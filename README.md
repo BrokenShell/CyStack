@@ -1,5 +1,7 @@
 # CyStack
 
+### Installation
+`pip install CyStack`
 
 ## CyStack: Iterator
 FILO Data Structure

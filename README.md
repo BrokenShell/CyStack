@@ -1,5 +1,8 @@
 # CyStack
 
+CyStack is a small collection of FIFO and FILO data structures. In both cases 
+the internal data structure is an std::vector<int>.
+
 ### Installation
 `pip install CyStack`
 

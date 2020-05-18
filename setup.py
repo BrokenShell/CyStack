@@ -28,7 +28,7 @@ setup(
     ),
     author="Robert Sharp",
     author_email="webmaster@sharpdesigndigital.com",
-    version="0.1.1",
+    version="0.1.2",
     description="Custom Stack & Queue",
     long_description=long_description,
     long_description_content_type="text/markdown",

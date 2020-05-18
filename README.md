@@ -4,9 +4,9 @@
 `pip install CyStack`
 
 ## CyStack: Iterator
-FILO Data Structure
-- push: adds a value to the stack
-- pop: removes and returns the newest value
+Integer FILO Data Structure
+- push: adds an int value to the stack
+- pop: removes and returns the newest int value
 - Implements:
     - `__init__`: Takes any iterable
     - `__iter__`: Iterator
@@ -14,9 +14,9 @@ FILO Data Structure
     - `__str__`: String
 
 ## CyQueue: Iterator
-FIFO Data Structure
-- push: adds a value to the queue
-- pop: removes and returns the oldest value 
+Integer FIFO Data Structure
+- push: adds an int value to the queue
+- pop: removes and returns the oldest int value 
 - Implements:
     - `__init__`: Takes any iterable
     - `__iter__`: Iterator

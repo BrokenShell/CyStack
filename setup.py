@@ -13,10 +13,10 @@ dev_status = {
 }
 
 setup(
-    name="Stack",
+    name="CyStack",
     ext_modules=cythonize(
         Extension(
-            name="Stack",
+            name="CyStack",
             sources=["Stack.pyx"],
             language=["c++"],
             extra_compile_args=["-std=c++17"],
@@ -28,13 +28,13 @@ setup(
     ),
     author="Robert Sharp",
     author_email="webmaster@sharpdesigndigital.com",
-    version="0.0.10",
+    version="0.1.0",
     description="Custom Stack & Queue",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="Free for non-commercial use",
     classifiers=[
-        dev_status["Alpha"],
+        dev_status["Beta"],
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Cython",
         "Programming Language :: C++",

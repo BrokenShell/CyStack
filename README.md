@@ -1,4 +1,5 @@
-# Stack
+# CyStack
+
 
 ## CyStack: Iterator
 FILO Data Structure

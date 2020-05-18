@@ -72,8 +72,7 @@ cdef class CyQueue:
             yield self.queue.pop()
 
     def __str__(self):
-        result = []
-        for itm in self:
-            result.append(str(itm))
+        queue = tuple(itm for itm in self)
+        for itm in queue:
             self.push(itm)
-        return ', '.join(result)
+        return ', '.join(map(str, queue))
